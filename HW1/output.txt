@@ -1,0 +1,69 @@
+## Reminder: This file is the output by the manual paste the result of program 
+
+
+Question1: How many word types (unique words) are there in the training corpus?
+Answer: 39502
+
+Question2: How many word tokens are there in the training corpus?
+Answer: 2221290
+
+Questin3:
+The percentage of word tokens in the test corpus did not occur in training:  1.806 %
+The percentage of word types in the test corpus did not occur in training:  3.926 %
+
+Question4:
+The percentage of bigram types in the test corpus did not occur in training:  26.678 %
+The percentage of bigram tokens in the test corpus did not occur in training:  23.005 %
+
+
+Question 5:
+The sentence:  <s> I look forward to hearing your reply . </s>
+Unigram Model:
+Log probability of i          is -8.400191146154116
+Log probability of look       is -11.982303986215943
+Log probability of forward    is -12.37560719314026
+Log probability of to         is -5.540690135458278
+Log probability of hearing    is -13.505537497185394
+Log probability of your       is -10.953683308276176
+Log probability of reply      is -17.623534706583847
+Log probability of .          is -4.811868102497583
+Log probability of </s>       is -4.62532894422938
+ 
+Log probability of Unigram model:  -89.81874501974099
+***********************************************
+Bigram Model:
+Log probability of ('<s>', 'i')         is -5.631088893700847
+Log probability of ('i', 'look')        is -8.875420257009424
+Log probability of ('look', 'forward')  is -4.345774836841731
+Log probability of ('forward', 'to')    is -2.2644156362321546
+Log probability of ('to', 'hearing')    is -13.220348094875503
+Log probability of ('hearing', 'your')  is undefined
+ 
+Log probability of Bigram model:  undefined
+***********************************************
+Bigram-Add-One Model:
+Log probability of ('<s>', 'i')         is -6.1552832892341485
+Log probability of ('i', 'look')        is -11.58489988238998
+Log probability of ('look', 'forward')  is -10.482231743023195
+Log probability of ('forward', 'to')    is -8.825428620790015
+Log probability of ('to', 'hearing')    is -13.82744195061677
+Log probability of ('hearing', 'your')  is -15.276633330886703
+Log probability of ('your', 'reply')    is -15.310009165842912
+Log probability of ('reply', '.')       is -15.270076277195479
+Log probability of ('.', '</s>')        is -0.6693560071854955
+ 
+Log probability of Bigram-Add-One model:  -97.40136026716472
+
+Question 6:
+The perplexity of Unigram model:  1009.8046830192555
+The perplexity of Bigram model:  undefined
+The perplexity of Bigram-Add-One model:  1810.7521375332478
+
+Question 7:
+The perplexity of Unigram model in entire test corpus:  1079.2881373074517
+The perplexity of Bigram model in entire test corpus:  undefined
+The perplexity of Bigram-Add-One model in entire test corpus:  2369.400882346745
+
+
+
+

@@ -1,0 +1,11 @@
+p(fast|action)= 0.16666666666666666
+p(couple|action)= 0.05555555555555555
+p(shoot|action)= 0.2777777777777778
+p(fly|action)= 0.1111111111111111
+test of action class is 0.00017146776406035664
+p(fast|comedy)= 0.125
+p(couple|comedy)= 0.1875
+p(shoot|comedy)= 0.0625
+p(fly|comedy)= 0.125
+test of comedy class is 7.324218750000001e-05
+This test file predicts action class.

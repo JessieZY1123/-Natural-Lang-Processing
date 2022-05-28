@@ -1,0 +1,33 @@
+{
+      "action": [
+            {
+                  "fly": 1,
+                  "fast": 1,
+                  "shoot": 1,
+                  "love": 1
+            },
+            {
+                  "furious": 1,
+                  "shoot": 2,
+                  "fun": 1
+            },
+            {
+                  "fast": 1,
+                  "furious": 1,
+                  "shoot": 1
+            }
+      ],
+      "comedy": [
+            {
+                  "fun": 1,
+                  "couple": 1,
+                  "love": 2
+            },
+            {
+                  "couple": 1,
+                  "fly": 1,
+                  "fast": 1,
+                  "fun": 2
+            }
+      ]
+}
